@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-card.css">
+    <link rel="stylesheet" href="css/style-btm.css">
+    <title>Human Common</title>
+</head>
+
+
+<body>
+    <div class="container">
+
+        <header class="header">
+            <div class="logo">
+                <img src="icon/logo.png" alt="logo">
+            </div>
+            <div class="header-bar">
+                <ul>
+                    <li>
+                        <div class="menu-btm">
+                            <div class="menu-btm__burger"></div>
+                        </div>
+                    </li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="#" style="text-decoration:line-through;">Contact</a></li>
+                    <li><a class="selected" href="./index.html">NPC</a></li>
+                    <li><a href="#" style="text-decoration:line-through;">Party</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <nav class="nav">
+            <div class="title">
+                <h1>Denizens of Rûl</h1>
+            </div>
+            <div class="NPC">
+                <ul>
+                    <li><a href="#" style="text-decoration:line-through;">Bestiary</a></li>
+                    <li><a class="selected" href="./human.html">Humans</a></li>
+                    <li><a href="#" style="text-decoration:line-through;">Other Ancestries</a></li>
+                </ul>
+            </div>
+            <div class="searcher">
+                <label for="name">
+                    Search:
+                    <input type="text" name="busqueda">
+                </label>        
+            </div>
+        </nav>
+
+        <section class="section">
+            <div class="index">
+                <h2>You are Here: NPCs &gt; Humans &gt; By Profession</h2>
+            </div>
+            <div class="sub-index">
+                <ul>
+                    <li><a class="selected" href="./human_common.html">Common</a></li>
+                    <li><a href="./human_criminal.html">Criminal</a></li>
+                    <li><a href="./human_military.html">Military</a></li>
+                    <li><a href="./human_religious.html">Religious</a></li>
+                    <li><a href="./human_scholar.html">Scholar</a></li>
+                    <li><a href="./human_wilderness.html">Wilderness</a></li>
+                </ul>
+            </div>
+        </section>
+        <main class="main">
+            <div class="NPC-card">
+                <img src="img/Apothecary.png" alt="Apothecary">
+                <div class="stadistics">
+                    <p class="description">
+                        Each settlement has at least one healer.
+                    </p>
+                    <div class="name-box">
+                        <h3>apothecary</h3>
+                        <div class="diff">
+                            <h3>diff 1</h3>
+                        </div>
+                    </div>
+                    <h4>Size 1 human</h4>
+                    <p>
+                        <span>Perception</span> 11 (+1) <br>
+                        <span>Defense</span> 10; <span>Health</span> 10; <span>Insanity</span> d3-2; <span>Corruption</span> d3-2 <br>
+                        <span>Strength</span> 10 (+0), <span>Agility</span> 10 (+0), <span>Intellect</span> 11 (+1), <span>Will</span> 10 (+0) <br>
+                        <span>Speed</span> 10; <span>Professions</span> Apothecary or healer <br>
+                        <span>Expertise</span> The apothecary makes rolls to stabilize creatures with 2 boons. In addition, if the apothecary tends to a resting character, the character heals extra damage equal to its healing rate and makes challenge rolls to resist the effects of disease and poison with 1 boon. <br>
+                    </p>
+                    <h5>special actions</h5>
+                    <p>
+                        <span>Heal Wounds</span> The apothecary can expend a use of its healer’s kit to tend to injuries of one creature within it's reach. The healer makes an Intellect challenge roll with 1 boon. On a success, the target heals 1 damage. <br>
+                        <span>Stabilize</span> The apothecary can choose one incapacitated creature within your reach and then make an Intellect challenge roll, with 2 boons or 1 boon if the creature is dying. On a success, the target heals 1 damage. <br>
+                    </p>
+                    <h5>possessions</h5>
+                    <p>
+                        An alchemist kit, a healing kit (6 uses), a <em>healing potion</em> and a pouch with 2d6 cp. <br>
+                    </p>
+                </div>
+            </div>
+
+            <div class="NPC-card">
+                <div class="stadistics">
+                    <p class="description">
+                        When you need something done.
+                    </p>    
+                    <div class="name-box">
+                        <h3>artisan</h3>
+                        <div class="diff">
+                            <h3>diff 1</h3>
+                        </div>    
+                    </div>    
+                    <h4>Size 1 human</h4>
+                    <p>
+                        <span>Perception</span> 11 (+1) <br>
+                        <span>Defense</span> 10; <span>Health</span> 10; <span>Insanity</span> d3-2; <span>Corruption</span> d3-2 <br>
+                        <span>Strength</span> 10 (+0), <span>Agility</span> 10 (+0), <span>Intellect</span> 11 (+1), <span>Will</span> 10 (+0) <br>
+                        <span>Speed</span> 10; <span>Professions</span> Artisan such as: <br>
+                    </p>
+                    <ul>
+                        <li>Blacksmith</li>
+                        <li>Bookbinder</li>
+                        <li>Carpenter</li>
+                        <li>Chandler</li>
+                        <li>Cobbler</li>
+                        <li>Leatherworker</li>
+                        <li>Mason</li>
+                        <li>Potter</li>
+                        <li>Printer</li>
+                        <li>Tailor</li>
+                    </ul>
+                    <p>
+                        <span>Expertise</span> The artisan can create finished items of a particular kind from provided raw materials. The artisan needs materials equal to half the item’s price and it takes 4 hours per ss of the item’s price to create the finished item. <br>
+                    </p>
+                    <h5>attack options</h5>
+                    <p>
+                        <span>Hammer</span> (melee or short range) +0 (1d3) <br>
+                    </p>
+                    <h5>possessions</h5>
+                    <p>
+                        A pouch with 1d6 cp and a tool kit. <br>
+                    </p>
+                </div>    
+                <img src="img/Artisan.png" alt="Artisan">
+            </div>
+
+            <div class="NPC-card">
+                <img src="img/Commoner.png" alt="Commoner">
+                <div class="stadistics">
+                    <p class="description">
+                        "There is no shame in being ordinary"
+                    </p>    
+                    <div class="name-box">
+                        <h3>commoner</h3>
+                        <div class="diff">
+                            <h3>diff 1</h3>
+                        </div>
+                    </div>
+                    <h4>Size 1 human</h4>
+                    <p>
+                        <span>Perception</span> 10 (+0) <br>
+                        <span>Defense</span> 10; <span>Health</span> 10; <span>Insanity</span> d3-2; <span>Corruption</span> d3-2 <br>
+                        <span>Strength</span> 10 (+0), <span>Agility</span> 10 (+0), <span>Intellect</span> 10 (+0), <span>Will</span> 10 (+0) <br>
+                        <span>Speed</span> 10; <span>Professions</span> Trade such as dyer, tanner, or butcher <br>
+                    </p>
+                    <h5>attack options</h5>
+                    <p>
+                        <span>Dagger</span> (melee or short range) +0 (1d3) <br>
+                    </p>
+                    <h5>possessions</h5>
+                    <p>
+                        A pouch with 1d6 cp. <br>
+                    </p>
+                </div>
+            </div>
+
+            <div class="NPC-card">
+                <img src="img/Cook.png" alt="Cook">
+                <div class="stadistics">
+                    <p class="description">
+                        "Something smells good!"
+                    </p>    
+                    <div class="name-box">
+                        <h3>cook</h3>
+                        <div class="diff">
+                            <h3>diff 1</h3>
+                        </div>
+                    </div>
+                    <h4>Size 1 human</h4>
+                    <p>
+                        <span>Perception</span> 10 (+0) <br>
+                        <span>Defense</span> 10; <span>Health</span> 10; <span>Insanity</span> d3-2; <span>Corruption</span> d3-2 <br>
+                        <span>Strength</span> 10 (+0), <span>Agility</span> 10 (+0), <span>Intellect</span> 10 (+0), <span>Will</span> 10 (+0) <br>
+                        <span>Speed</span> 10; <span>Professions</span> Baker or cook <br>
+                        <span>Skill Training</span> Food the cook prepares allows characters that complete a rest to heal 1d6 extra damage. <br>
+                    </p>    
+                    <h5>attack options</h5>
+                    <p>
+                        <span>Knife</span> (melee or short range) +0 (1d3) <br>
+                    </p>    
+                    <h5>possessions</h5>
+                    <p>
+                        A cooking pot and a pouch with 2d6 bits. <br>
+                    </p>
+                </div>
+            </div>
+
+            <div class="NPC-card">
+                <div class="stadistics">
+                    <p class="description">
+                        "Dance 'till you're dead!"
+                    </p>    
+                    <div class="name-box">
+                        <h3>entretainer</h3>
+                        <div class="diff">
+                            <h3>diff 1</h3>
+                        </div>
+                    </div>
+                    <h4>Size 1 human</h4>
+                    <p>
+                        <span>Perception</span> 11 (+1) <br>
+                        <span>Defense</span> 11; <span>Health</span> 9; <span>Insanity</span> d3-2; <span>Corruption</span> d3-2 <br>
+                        <span>Strength</span> 9 (-1), <span>Agility</span> 11 (+1), <span>Intellect</span> 11 (+1), <span>Will</span> 10 (+0) <br>
+                        <span>Speed</span> 10; <span>Professions</span> Entretainer or Musician <br>
+                        <span>Skill Training</span> The entretainer can use an action to help any creature that can see and hear it within long range by performing music. <br>
+                    </p>
+                    <h5>possessions</h5>
+                    <p>
+                        A pouch with 1d6 cp. <br>
+                    </p>
+                </div>
+                <img src="img/Entretainer.png" alt="Entretainer">
+            </div>
+
+            <div class="NPC-card">
+                <div class="stadistics">
+                    <p class="description">
+                        "Everything's on sell!"
+                    </p>
+                <div class="name-box">
+                    <h3>merchant</h3>
+                    <div class="diff">
+                        <h3>diff 1</h3>
+                    </div>
+                </div>
+                    <h4>Size 1 human</h4>
+                    <p>
+                        <span>Perception</span> 11 (+1) <br>
+                        <span>Defense</span> 10; <span>Health</span> 10; <span>Insanity</span> d3-2; <span>Corruption</span> d3-2 <br>
+                        <span>Strength</span> 9 (-1), <span>Agility</span> 10 (+0), <span>Intellect</span> 11 (+1), <span>Will</span> 10 (+0) <br>
+                        <span>Speed</span> 10; <span>Professions</span> Merchant <br>
+                    </p>
+                    <h5>attack options</h5>
+                    <p>
+                        <span>Whip</span> (melee, reach +1) +0 (1d3) <br>
+                    </p>
+                    <h5>special attacks</h5>
+                    <p>
+                        <span>Subterfuge</span> The merchant makes an Intellect attack roll against the Intellect of one creature within short range that can hear and understand what the merchant says. On a success, the target becomes charmed for 1 round or until the merchant attacks it. On a failure, the target becomes immune to the merchant’s use of Subterfuge until the target completes a rest. <br>
+                    </p>
+                    <h5>possessions</h5>
+                    <p>
+                        A <em>healing potion</em>, a pouch with 2d6 ss, a <em>rank 0 incantation</em> and raw goods (such as textiles or grains) worth 1d6 ss. <br>
+                        Plus a personal servant, a guard and three mounts. <br>
+                    </p>
+                </div>
+                <img src="img/Merchant.png" alt="Merchant">
+            </div>
+
+            <div class="NPC-card">
+                <div class="stadistics">
+                    <p class="description">
+                        "Yer steppin' on my crops!"
+                    </p>
+                    <div class="name-box">
+                        <h3>peasant</h3>
+                        <div class="diff">
+                            <h3>diff 1</h3>
+                        </div>    
+                    </div>
+                    <h4>Size 1 human</h4>
+                    <p>
+                        <span>Perception</span> 9 (-1) <br>
+                        <span>Defense</span> 10; <span>Health</span> 10; <span>Insanity</span> d3-2; <span>Corruption</span> d3-2 <br>
+                        <span>Strength</span> 10 (+0), <span>Agility</span> 10 (+0), <span>Intellect</span> 9 (-1),
+                        <span>Will</span> 8 (-2) <br>
+                        <span>Speed</span> 10; <span>Professions</span> Farmer or Serf <br>
+                    </p>    
+                    <h5>attack options</h5>
+                    <p>
+                        <span>Scythe</span> (melee) +0 with 1 bane (1d6) <br>
+                        <span>Rock</span> (short range) +0 (1) <br>
+                    </p>    
+                    <h5>possessions</h5>
+                    <p>
+                        A sack with 2d6 bits, a waterskin, and a loaf of bread. <br>
+                    </p>
+                </div>
+                <img src="img/Peasant.png" alt="Peasant">
+            </div>
+
+            <div class="NPC-card" id="Prostitute">
+                <div class="stadistics">
+                    <p class="description">
+                        Claimed by some to be the oldest profession of humanity, prostitutes are men and women willing to offer companionship and carnal pleasures in exchange for coin. These types of businesses are available at any social level, the more expensive, the more interesting talkers and they may know one or two extra professions.
+                    </p>                
+                    <div class="name-box">
+                        <h3>prostitute</h3>
+                        <div class="diff">
+                            <h3>diff 1</h3>
+                        </div>
+                    </div>
+                    <h4>Size 1 human</h4>
+                    <p>
+                        <span>Perception</span> 10 (+0) <br>
+                        <span>Defense</span> 11; <span>Health</span> 9; <span>Insanity</span> d3-2; <span>Corruption</span> d3-2 <br>
+                        <span>Strength</span> 9 (-1), <span>Agility</span> 11 (+1), <span>Intellect</span> 10 (+0), <span>Will</span> 10 (+0) <br>
+                        <span>Speed</span> 10; <span>Professions</span> Courtesan, prostitute, or camp follower <br>
+                    </p>
+                    <h5>attack options</h5>
+                    <p>
+                        <span>Knife</span> (melee or short range) +1 (1d3) <br>
+                    </p>
+                    <h5>possessions</h5>
+                    <p>
+                        A bottle of perfume, a cosmetic kit, a handkerchief and a handbag with 1d6 coins (depending of its Cost*).
+                    </p>
+                    <h5>special</h5>
+                    <table style="width: 100%;">
+                        <tr>
+                            <th></th>
+                            <th>Cost*</th>
+                            <th><em>Lover's Lament (Fever Dreams p.3)</em></th>
+                        </tr>
+                        <tr>
+                            <td>Cheap</td>
+                            <td style="text-align:center; border: 1px solid black;">1 cp / hour</td>
+                            <td style="text-align:center; border: 1px solid black;">Chance of having it: 1d6</td>
+                        </tr>
+                        <tr>
+                            <td>Common</td>
+                            <td style="text-align:center; border: 1px solid black;">1 ss / hour</td>
+                            <td style="text-align:center; border: 1px solid black;">Chance of having it: 1d20</td>
+                        </tr>
+                        <tr>
+                            <td>Fine</td>
+                            <td style="text-align:center; border: 1px solid black;">1 gc / hour</td>
+                            <td style="text-align:center; border: 1px solid black;">Chance of having it: none</td>
+                        </tr>
+                    </table>
+                </div>
+                <img src="img/Prostitute.png" alt="Prostitute">
+            </div>
+
+            <div class="NPC-card">
+                <div class="stadistics">
+                    <p class="description">
+                        "How can I serve you, master?"
+                    </p>    
+                    <div class="name-box">
+                        <h3>servant</h3>
+                        <div class="diff">
+                            <h3>diff 1</h3>
+                        </div>
+                    </div>
+                    <h4>Size 1 human</h4>
+                    <p>
+                        <span>Perception</span> 10 (+0) <br>
+                        <span>Defense</span> 10; <span>Health</span> 10; <span>Insanity</span> d3-2; <span>Corruption</span> d3-2 <br>
+                        <span>Strength</span> 10 (+0), <span>Agility</span> 10 (+0), <span>Intellect</span> 10 (+0), <span>Will</span> 10 (+0) <br>
+                        <span>Speed</span> 10; <span>Professions</span> Servant or valet <br>
+                        <span>Skill Training</span> The servant grants 1 additional boon when using an action to help. <br>
+                    </p>
+                    <h5>possessions</h5>
+                    <p>
+                        A pouch with 1d6 cp. <br>
+                    </p>
+                </div>
+                <img src="img/Servant.png" alt="Servant">
+            </div>
+
+            <div class="NPC-card">
+                <img src="img/Shopkeeper.png" alt="Shopkeeper">
+                <div class="stadistics">
+                    <p class="description">
+                        "Hey you, get out of my shop!"
+                    </p>
+                    <div class="name-box">
+                        <h3>shopkeeper</h3>
+                        <div class="diff">
+                            <h3>diff 1</h3>
+                        </div>
+                    </div>
+                    <h4>Size 1 human</h4>
+                    <p>
+                        <span>Perception</span> 10 (+0) <br>
+                        <span>Defense</span> 10; <span>Health</span> 10; <span>Insanity</span> d3-2; <span>Corruption</span> d3-2 <br>
+                        <span>Strength</span> 10 (+0), <span>Agility</span> 10 (+0), <span>Intellect</span> 10 (+0), <span>Will</span> 10 (+0) <br>
+                        <span>Speed</span> 10; <span>Professions</span> Bartender or shopkeeper <br>
+                    </p>    
+                    <h5>attack options</h5>
+                    <p>
+                        <span>Crossbow</span> (long range, reload) +0 (2d6) <br>
+                    </p>    
+                    <h5>possessions</h5>
+                    <p>
+                        5 bolts and a pouch with 2d6 cp. <br>
+                    </p>
+                </div>
+            </div>
+
+        </main>
+
+        <footer class="footer">
+            <h6>
+                &#169; Copyright - Rafael Andres Alesso Herrera - Front end
+            </h6>
+            <div class="contact">
+                <a href="#" class="contact-btm">
+                    <span><img src="icon/gmail-icon.png" alt="gmail-icon"></span>Email
+                </a>        
+                <a href="#" class="contact-btm">
+                    <span><img src="icon/github-icon.png" alt="github-icon"></span>Github
+                </a>
+                <a href="#" class="contact-btm">
+                    <span><img src="icon/linkedin-icon.png" alt="linkedin-icon"></span>Linkedin
+                </a>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

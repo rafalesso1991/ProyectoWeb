@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-card.css">
+    <link rel="stylesheet" href="css/style-btm.css">
+    <title>Human Common</title>
+</head>
+
+
+<body>
+    <div class="container">
+
+        <header class="header">
+            <div class="logo">
+                <img src="icon/logo.png" alt="logo">
+            </div>
+            <div class="header-bar">
+                <ul>
+                    <li>
+                        <div class="menu-btm">
+                            <div class="menu-btm__burger"></div>
+                        </div>
+                    </li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="#" style="text-decoration:line-through;">Contact</a></li>
+                    <li><a class="selected" href="./human.html">Humans</a></li>
+                    <li><a href="#" style="text-decoration:line-through;">Party</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <nav class="nav">
+            <div class="title">
+                <h1>Denizens of Rûl</h1>
+            </div>
+            <div class="NPC">
+                <ul>
+                    <li><a href="#" style="text-decoration:line-through;">Bestiary</a></li>
+                    <li><a class="selected" href="./human.html">Humans</a></li>
+                    <li><a href="#" style="text-decoration:line-through;">Other Ancestries</a></li>
+                </ul>
+            </div>
+            <div class="searcher">
+                <label for="name">
+                    Search:
+                    <input type="text" name="busqueda">
+                </label>        
+            </div>
+        </nav>
+
+        <section class="section">
+            <div class="index">
+                <h2>You are Here: NPCs &gt; Humans &gt; By Profession</h2>
+            </div>
+            <div class="sub-index">
+                <ul>
+                    <li><a href="./human_common.html">Common</a></li>
+                    <li><a class="selected" href="./human_criminal.html">Criminal</a></li>
+                    <li><a href="./human_military.html">Military</a></li>
+                    <li><a href="./human_religious.html">Religious</a></li>
+                    <li><a href="./human_scholar.html">Scholar</a></li>
+                    <li><a href="./human_wilderness.html">Wilderness</a></li>
+
+                </ul>
+            </div>
+        </section>
+        <main class="main">
+
+            <div class="NPC-card" id="Grave Robber">
+                <div class="stadistics">
+                    <p class="description">
+                        "Deads can be a lucrative business if you lack of enough scruples"
+                    </p>                
+                    <div class="name-box">
+                        <h3>grave robber</h3>
+                        <div class="diff">
+                            <h3>diff 5</h3>
+                        </div>
+                    </div>
+                    <h4>Size 1 human rogue</h4>
+                    <p>
+                        <span>Perception</span> 11 (+1) <br>
+                        <span>Defense</span> 12; <span>Health</span> 13; <span>Insanity</span> d3-2; <span>Corruption</span> d3-2 <br>
+                        <span>Strength</span> 10 (+0), <span>Agility</span> 12 (+2), <span>Intellect</span> 11 (+1), <span>Will</span> 10 (+0) <br>
+                        <span>Speed</span> 10; <span>Professions</span> Burglar or grave robber <br>
+                        <span>Trickery</span> Once per round, the grave robber can make a challenge roll or an attack roll with 1 boon. <br>
+                    </p>    
+                    <h5>attack options</h5>
+                    <p>
+                        <span>Knife</span> (melee or short range) +2 (1d3 plus 1d6 if the grave robber had 1 boon from Trickery) <br>
+                    </p>    
+                    <h5>possessions</h5>
+                    <p>
+                        A handsaw, knifes, lock picks, scissors, a shovel and a pouch with 1d6 pieces of jewelery each worth 2d6 cp <br>
+                    </p>
+                </div>
+                <img src="img/Grave_Robber.png" alt="Grave_Robber">
+            </div>
+
+            <div class="NPC-card" id="Hired Killer">
+                <img src="img/Hired_Killer.png" alt="Hired_Killer">
+                <div class="stadistics">
+                    <p class="description">
+                        "He wont watch another sunrise..."
+                    </p>                
+                    <div class="name-box">
+                        <h3>hired killer</h3>
+                        <div class="diff">
+                            <h3>diff 10</h3>
+                        </div>
+                    </div>
+                    <h4>Size 1 human rogue</h4>
+                    <p>
+                        <span>Perception</span> 12 (+2) <br>
+                        <span>Defense</span> 12; <span>Health</span> 16; <span>Insanity</span> d3-1; <span>Corruption</span> d3-1 <br>
+                        <span>Strength</span> 12 (+0), <span>Agility</span> 12 (+2), <span>Intellect</span> 10 (+0), <span>Will</span> 9 (-1) <br>
+                        <span>Speed</span> 10; <span>Professions</span> Murderer <br>
+                        <span>Trickery</span> Once per round, the hire killer can make a challenge roll or an attack roll with 1 boon. <br>
+                        <span>Backstab</span> Once per round, when the hired killer attacks with a basic or swift weapon and makes the attack roll with at least 1 boon, the attack deals 1d6 extra damage. <br>
+                    </p>
+                    <h5>attack options</h5>
+                    <p>
+                        <span>Large Knife</span> (melee) +2 (1d6 plus 2d6 if the hired killer had 1 boon from Trickery) <br>
+                    </p>
+                    <h5>special attacks</h5>
+                    <p>
+                        <span>Garrote</span> The hired killer uses an action to grab (Strength or Agility attack roll against the target’s Agility) a Size 2 or less creature wielding the garrote with both hands. If the hired killer gets a success on the attack roll, the target takes 1d6 damage, becomes grabbed and cannot talk while grabbed this way. If the target attempts to escape, it makes its attack roll with 1 bane. <br>
+                    </p>
+                    <h5>possessions</h5>
+                    <p>
+                        A drawing showing the face of the current contract, a pouch with 1d6 ss (depending of the difficulty of the job) and scoundrel’s gloves. <br>
+                    </p>
+                </div>
+            </div>
+
+            <div class="NPC-card" id="Scoundrel">
+                <img src="img/Scoundrel.png" alt="Scoundrel">
+                <div class="stadistics">
+                    <p class="description">
+                        "C'mon! Trust me"
+                    </p>                
+                    <div class="name-box">
+                        <h3>scoundrel</h3>
+                        <div class="diff">
+                            <h3>diff 10</h3>
+                        </div>
+                    </div>
+                    <h4>Size 1 human rogue (scoundrel)</h4>
+                    <p>
+                        <span>Perception</span> 12 (+2) <br>
+                        <span>Defense</span> 13 (soft leather); <span>Health</span> 16; <span>Insanity</span> d3-1; <span>Corruption</span> d3-1 <br>
+                        <span>Strength</span> 10 (+0), <span>Agility</span> 12 (+2), <span>Intellect</span> 12 (+2), <span>Will</span> 9 (-1) <br>
+                        <span>Speed</span> 10; <span>Professions</span> Charlatan, confidence artist, informant, or spy <br>
+                        <span>Trickery</span> Once per round, the scoundrel can make a challenge roll or an attack roll with 1 boon. <br>
+                    </p>
+                    <h5>attack options</h5>
+                    <p>
+                        <span>Dagger</span> (melee or short range) +2 (1d3 plus 1d6 if the scoundrel had 1 boon from Trickery) <br>
+                    </p>
+                    <h5>special attacks</h5>
+                    <p>
+                        <span>Subterfuge</span> The scoundrel makes an Intellect attack roll against the Intellect of one creature within short range that can hear and understand what the scoundrel says. On a success, the target becomes charmed for 1 round or until the scoundrel attacks it. On a failure, the target becomes immune to the scoundrel’s use of Subterfuge until the target completes a rest. <br>
+                    </p>
+                    <h5>possessions</h5>
+                    <p>
+                        A disguise kit, and a pouch with 2d6 cp. <br>
+                    </p>
+                </div>
+            </div>
+
+            <div class="NPC-card" id="Smuggler">
+                <div class="stadistics">
+                    <p class="description">
+                        "Hey you! Lookin for something good?"
+                    </p>                
+                    <div class="name-box">
+                        <h3>smuggler</h3>
+                        <div class="diff">
+                            <h3>diff 5</h3>
+                        </div>
+                    </div>
+                    <h4>Size 1 human rogue</h4>
+                    <p>
+                        <span>Perception</span> 12 (+2) <br>
+                        <span>Defense</span> 11; <span>Health</span> 13; <span>Insanity</span> d3-2; <span>Corruption</span> d3-2 <br>
+                        <span>Strength</span> 10 (+0), <span>Agility</span> 11 (+1), <span>Intellect</span> 12 (+2), <span>Will</span> 10 (+0) <br>
+                        <span>Speed</span> 10; <span>Professions</span> Fence or smuggler <br>
+                        <span>Trickery</span> Once per round, the grave smuggler can make a challenge roll or an attack roll with 1 boon. <br>
+                    </p>    
+                    <h5>attack options</h5>
+                    <p>
+                        <span>Knife</span> (melee or short range) +2 (1d3 plus 1d6 if the smuggler had 1 boon from Trickery) <br>
+                    </p>    
+                    <h5>possessions</h5>
+                    <p>
+                        1d6 random <em>potions</em> and 1d3 -1 <em>enchanted objects</em> <br>
+                    </p>
+                </div>
+                <img src="img/Smuggler.png" alt="Smuggler">
+            </div>
+
+            <div class="NPC-card" id="Ruffian">
+                <div class="stadistics">
+                    <p class="description">
+                        "Jey you! What the hell are you looking at?"
+                    </p>                
+                    <div class="name-box">
+                        <h3>ruffian</h3>
+                        <div class="diff">
+                            <h3>diff 10</h3>
+                        </div>
+                    </div>
+                    <h4>Size 1 human rogue (ruffian)</h4>
+                    <p>
+                        <span>Perception</span> 12 (+2) <br>
+                        <span>Defense</span> 12; <span>Health</span> 16; <span>Insanity</span> d3-1; <span>Corruption</span> d3-1 <br>
+                        <span>Strength</span> 10 (+0), <span>Agility</span> 12 (+2), <span>Intellect</span> 12 (+2), <span>Will</span> 9 (-1) <br>
+                        <span>Speed</span> 10; <span>Professions</span> Mugger or thug <br>
+                        <span>Trickery</span> Once per round, the ruffian can make a challenge roll or an attack roll with 1 boon. <br>
+                    </p>
+                    <h5>attack options</h5>
+                    <p>
+                        <span>Dagger</span> (melee or short range) +2 (1d3 plus 1d6 if the ruffian had 1 boon from Trickery) <br>
+                        <span>Small Sword</span> (melee) +2 (1d6 plus 1d6 if the ruffian had 1 boon from Trickery) <br>
+                    </p>
+                    <h5>special attacks</h5>
+                    <p>
+                        <strong>Threats</strong>The ruffian uses an action or a triggered action on its turn to make an Intellect attack roll against the Will of one target creature within short range of it that can hear and see it. On a success, the target becomes frightened for 1 round. On a failure, the target becomes immune to that ruffian’s Threats for 24 hours. <br>
+                    </p>
+                    <h5>possessions</h5>
+                    <p>
+                        Fine clothing and a pouch with 2d6 cp. <br>
+                    </p>
+                </div>
+                <img src="img/Ruffian.png" alt="Ruffian">
+            </div>
+    
+            <div class="NPC-card" id="Thief">
+                <div class="stadistics expert">
+                    <p class="description">
+                        "That's not mine"
+                    </p>                
+                    <div class="name-box">
+                        <h3>thief</h3>
+                        <div class="diff">
+                            <h3>diff 25</h3>
+                        </div>
+                    </div>
+                    <h4>Size 1 human thief</h4>
+                    <p>
+                        <span>Perception</span> 13 (+3) <br>
+                        <span>Defense</span> 13; <span>Health</span> 24; <span>Insanity</span> d3; <span>Corruption</span> d3 <br>
+                        <span>Strength</span> 10 (+0), <span>Agility</span> 13 (+3), <span>Intellect</span> 12 (+2), <span>Will</span> 10 (+0) <br>
+                        <span>Speed</span> 10; <span>Professions</span> Gambler and pickpocket <br>
+                        <span>Trickery</span> Once per round, the thief can make a challenge roll or an attack roll with 1 boon. <br>
+                    </p>
+                    <h5>attack options</h5>
+                    <p>
+                        <span>Dagger</span> (melee or short range) +3 (1d3 plus 1d6 if the pickpocket had 1 boon from Trickery) <br>
+                    </p>
+                    <h5>special attacks</h5>
+                    <p>
+                        <span>Subterfuge</span> The thief makes an Intellect attack roll against the Intellect of one creature within short range that can hear and understand what the thief says. On a success, the target becomes charmed for 1 round or until the thief attacks it. On a failure, the target becomes immune to the thief’s use of Subterfuge until the target completes a rest. <br>
+                    </p>
+                    <h5>special actions</h5>
+                    <p>
+                        <strong>Escape Artist</strong> When the thief is grabbed, it can use a triggered action to escape. When rope bindings or manacles restrains the thief, it can use an action to attempt to escape the bonds. The thief must concentrate for 1 minute. At the end of this time, it makes an Agility challenge roll. On a success, it escapes the bonds. On a failure, it is bound tight and it remain bound until freed. <br>
+                        <strong>Pick Pockets</strong>The thief uses an action or a triggered action on its turn, to take an object from a creature within its reach. The object taken must be something the thief can hold in one hand and be somewhere on the creature’s body but not held in its hands (or in a similar appendage). If the thief can’t see the object, because it reachs into a pouch or backpack, the item taken is determined randomly. <br>
+                    </p>
+                    <h5>possessions</h5>
+                    <p>
+                        A deck of cards, a pair of dice and a pouch with 1d6 ss. <br>
+                    </p>
+                </div>
+                <img src="img/Thief.png" alt="Thief">
+            </div>
+    
+            <div class="NPC-card" id="Thug">
+                <div class="stadistics">
+                    <p class="description">
+                        "Bullies, goons, and henchmen. Thugs are dull-witted and up-to-no-good individuals whose usually makes a living muggin lost characters or working for a more wealthy and sinister patron."
+                    </p>                
+                    <div class="name-box">
+                        <h3>thug</h3>
+                        <div class="diff">
+                            <h3>diff 1</h3>
+                        </div>
+                    </div>
+                    <h4>Size 1 human</h4>
+                    <p>
+                        <span>Perception</span> 9 (-1) <br>
+                        <span>Defense</span> 11 (soft leather); <span>Health</span> 11; <span>Insanity</span> d3; <span>Corruption</span> d3 <br>
+                        <span>Strength</span> 11 (+1), <span>Agility</span> 10 (+0), <span>Intellect</span> 9 (-1), <span>Will</span> 9 (-1) <br>
+                        <span>Speed</span> 10; <span>Professions</span> Mugger or thug <br>
+                    </p>
+                    <h5>attack options</h5>
+                    <p>
+                        <span>Club</span> (melee) +1 (1d6) <br>
+                    </p>
+                    <h5>possessions</h5>
+                    <p>
+                        A pouch with 1d6 bits. <br>
+                    </p>
+                </div>
+                <img src="img/Thug.png" alt="Thug">
+            </div>
+    
+            <div class="NPC-card" id="Urchin">
+                <div class="stadistics">
+                    <p class="description">
+                        Little brats who raise in the streets, they will make anything for a coin, they may offer themselves as guides, messengers or even pickpockets. They ussualy gather in small gangs and help each other distracting the victims as another ones steal their pockets.
+                    </p>                
+                    <div class="name-box">
+                        <h3>urchin</h3>
+                        <div class="diff">
+                            <h3>diff 1</h3>
+                        </div>    
+                    </div>
+                    <h4>Size &frac12; human</h4>
+                    <p>
+                        <span>Perception</span> 9 (-1) <br>
+                        <span>Defense</span> 12; <span>Health</span> 8; <span>Insanity</span> d3-1; <span>Corruption</span> 1d3-2 <br>
+                        <span>Strength</span> 8 (-2), <span>Agility</span> 12 (+2), <span>Intellect</span> 9 (-1),
+                        <span>Will</span> 8 (-2) <br>
+                        <span>Speed</span> 10; <span>Professions</span> Urchin <br>
+                    </p>    
+                    <h5>attack options</h5>
+                    <p>
+                        <span>Rock</span> (short range) +2 (1) <br>
+                    </p>
+                    <h5>spacial attacks</h5>
+                    <p>
+                        <strong>Pick Pockets</strong> The urchin makes an Agility attack roll against the Perception of one creature it can reach to take an object from it. The object must be something the urchin can hold in one hand and be somewhere on the creature’s body but not held in its hands. If the urchin can’t see the object, because it is into a pouch or backpack, it makes the attack roll with 1 bane. On a success, the urchin takes the object and the target is unaware that the urchin took it. On a failure, the urchin triggers a free attack from the target. <br>
+                    </p>
+                </div>
+                <img src="img/Urchin.png" alt="Urchin">
+            </div>
+
+        </main>
+
+        <footer class="footer">
+            <h6>
+                &#169; Copyright - Rafael Andres Alesso Herrera - Front end
+            </h6>
+            <div class="contact">
+                <a href="#" class="contact-btm">
+                    <span><img src="icon/gmail-icon.png" alt="gmail-icon"></span>Email
+                </a>        
+                <a href="#" class="contact-btm">
+                    <span><img src="icon/github-icon.png" alt="github-icon"></span>Github
+                </a>
+                <a href="#" class="contact-btm">
+                    <span><img src="icon/linkedin-icon.png" alt="linkedin-icon"></span>Linkedin
+                </a>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

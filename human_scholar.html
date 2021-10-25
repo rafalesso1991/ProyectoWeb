@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-card.css">
+    <link rel="stylesheet" href="css/style-btm.css">
+    <title>Human Common</title>
+</head>
+
+
+<body>
+    <div class="container">
+
+        <header class="header">
+            <div class="logo">
+                <img src="icon/logo.png" alt="logo">
+            </div>
+            <div class="header-bar">
+                <ul>
+                    <li>
+                        <div class="menu-btm">
+                            <div class="menu-btm__burger"></div>
+                        </div>
+                    </li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="#" style="text-decoration:line-through;">Contact</a></li>
+                    <li><a class="selected" href="./index.html">NPC</a></li>
+                    <li><a href="#" style="text-decoration:line-through;">Party</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <nav class="nav">
+            <div class="title">
+                <h1>Denizens of Rûl</h1>
+            </div>
+            <div class="NPC">
+                <ul>
+                    <li><a href="#" style="text-decoration:line-through;">Bestiary</a></li>
+                    <li><a class="selected" href="./human.html">Humans</a></li>
+                    <li><a href="#" style="text-decoration:line-through;">Other Ancestries</a></li>
+                </ul>
+            </div>
+            <div class="searcher">
+                <label for="name">
+                    Search:
+                    <input type="text" name="busqueda">
+                </label>        
+            </div>
+        </nav>
+
+        <section class="section">
+            <div class="index">
+                <h2>You are Here: NPCs &gt; Humans &gt; By Profession</h2>
+            </div>
+            <div class="sub-index">
+                <ul>
+                    <li><a href="./human_common.html">Common</a></li>
+                    <li><a href="./human_criminal.html">Criminal</a></li>
+                    <li><a href="./human_military.html">Military</a></li>
+                    <li><a href="./human_religious.html">Religious</a></li>
+                    <li><a class="selected" href="./human_scholar.html">Scholar</a></li>
+                    <li><a href="./human_wilderness.html">Wilderness</a></li>
+                </ul>
+            </div>
+        </section>
+        <main class="main">
+
+            <div class="NPC-card">
+                <img src="img/Poet.png" alt="Poet">
+                <div class="stadistics">
+                    <p class="description">
+                        "Roses are red, violets are blue..."
+                    </p>
+                    <div class="name-box">
+                        <h3>poet</h3>
+                        <div class="diff">
+                            <h3>diff 1</h3>
+                        </div>
+                    </div>
+                    <h4>Size 1 human</h4>
+                    <p>
+                        <span>Perception</span> 11 (+1) <br>
+                        <span>Defense</span> 10; <span>Health</span> 10; <span>Insanity</span> d3-2; <span>Corruption</span> d3-2 <br>
+                        <span>Strength</span> 10 (+0), <span>Agility</span> 10 (+0), <span>Intellect</span> 11 (+1), <span>Will</span> 10 (+0) <br>
+                        <span>Speed</span> 10; <span>Professions</span> Scholarship (literature, poetry and the arts) <br>
+                        <span>Charming</span> In social situations, the poet makes attack rolls to influence people ordinarily attracted to its gender and members of its ancestry with 1 boon. <br>
+                    </p>
+                    <h5>possessions</h5>
+                    <p>
+                        A poetry book, a pouch with 1d6 cp and a writing kit. <br>
+                    </p>
+                </div>
+            </div>
+
+            <div class="NPC-card">
+                <div class="stadistics">
+                    <p class="description">
+                        "Mortui Vivos Docent"
+                    </p>
+                    <div class="name-box">
+                        <h3>physician</h3>
+                        <div class="diff">
+                            <h3>diff 10</h3>
+                        </div>
+                    </div>
+                    <h4>Size 1 human rogue (leech)</h4>
+                    <p>
+                        <span>Perception</span> 13 (+3) <br>
+                        <span>Defense</span> 12 (soft leather); <span>Health</span> 16; <span>Insanity</span> d3; <span>Corruption</span> d3 <br>
+                        <span>Strength</span> 10 (+0), <span>Agility</span> 10 (+0), <span>Intellect</span> 13 (+3), <span>Will</span> 10 (+0) <br>
+                        <span>Speed</span> 10; <span>Professions</span> Scholarship (medicine and surgery) <br>
+                        <span>Expertise</span> The physician makes rolls to stabilize creatures with 2 boons. In addition, if the physician tends to a resting character, the character heals extra damage equal to its healing rate and makes challenge rolls to resist the effects of disease and poison with 1 boon. <br>
+                        <span>Plague Mask</span> The physician makes Strength challenge rolls made to resist dangerous air or diseases which spreads through the air. <br>
+                        <span>Trickery</span> Once per round, the physician can make a challenge roll or an attack roll with 1 boon. <br>
+                    </p>
+                    <h5>attack options</h5>
+                    <p>
+                        <span>Rapier</span> (melee) +0 (1d6 +1 plus 1d6 if the physician had 1 boon from Trickery) <br>
+                    </p>
+                    <h5>special actions</h5>
+                    <p>
+                        <span>Physician’s Cure</span> The physician can use an action and expend a use from its healing kit to treat one target creature. The physician makes an Intellect challenge roll. On a success, the target heals 1 damage and the physician can remove one of the following afflictions from the target: fatigued, frightened, impaired, or poisoned. If the affliction has permanent duration, it cannot be removed using this talent. <br>
+                        <span>Stabilize</span> The physician can choose one incapacitated creature within your reach and then make an Intellect challenge roll, with 3 boons or 2 boons if the creature is dying. On a success, the target heals 1 damage. <br>
+                    </p>
+                    <h5>possessions</h5>
+                    <p>
+                        An <em>antitoxin potion</em>, a healing kit (6 uses), a <em>healing potion</em>, a pouch with 1d6 ss and sawbones tools. <br>
+                    </p>
+                </div>
+                <img src="img/Doctor.png" alt="Doctor">
+            </div>
+
+            <div class="NPC-card">
+                <img src="img/Scholar.png" alt="Scholar">
+                <div class="stadistics">
+                    <p class="description">
+                        A master in certains areas of knoledge.
+                    </p>
+                    <div class="name-box">
+                        <h3>scholar</h3>
+                        <div class="diff">
+                            <h3>diff 5</h3>
+                        </div>
+                    </div>
+                    <h4>Size 1 human</h4>
+                    <p>
+                        <span>Perception</span> 13 (+3) <br>
+                        <span>Defense</span> 10; <span>Health</span> 9; <span>Insanity</span> d3-2; <span>Corruption</span> d3-2 <br>
+                        <span>Strength</span> 10 (+0), <span>Agility</span> 10 (+0), <span>Intellect</span> 13 (+3), <span>Will</span> 10 (+0) <br>
+                        <span>Speed</span> 10; <span>Professions</span> The scholar is a master in a particular area of scholarship and an expert in two additional areas <br>
+                        <span>Area of Scholarship</span> The scholar can recall obscure information related to the area of mastery and uncommon information related to the areas of expertise: <br>
+                        <ul>
+                            <li>Architecture and engineering</li>
+                            <li>Astronomy and navigation</li>
+                            <li>History and geography (pre-imperial)</li>
+                            <li>History and geography (post-imperial)</li>
+                            <li>Magical theory</li>
+                            <li>Natural sciences</li>
+                            <li>Philosophy and theology</li>
+                            <li>Occult</li>
+                        </ul>
+                    </p>
+                    <p>
+                        <span>Scholarly Guidance</span> Scholarly Guidance Each creature friendly to the scholar and within short range makes Intellect rolls with 1 boon and imposes 1 bane on rolls made against their Intellect. <br>
+                    </p>
+                    <h5>attack options</h5>
+                    <p>
+                        <span>Staff</span> (melee) +0 (1d6 +1) <br>
+                    </p>
+                    <h5>possessions</h5>
+                    <p>
+                        1d3 +1 books, a pouch with 1d6 ss and a <em>rank 0 incantation</em>. <br>
+                    </p>
+                </div>
+            </div>
+
+        </main>
+
+        <footer class="footer">
+            <h6>
+                &#169; Copyright - Rafael Andres Alesso Herrera - Front end
+            </h6>
+            <div class="contact">
+                <a href="#" class="contact-btm">
+                    <span><img src="icon/gmail-icon.png" alt="gmail-icon"></span>Email
+                </a>        
+                <a href="#" class="contact-btm">
+                    <span><img src="icon/github-icon.png" alt="github-icon"></span>Github
+                </a>
+                <a href="#" class="contact-btm">
+                    <span><img src="icon/linkedin-icon.png" alt="linkedin-icon"></span>Linkedin
+                </a>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

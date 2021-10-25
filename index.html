@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-card.css">
+    <link rel="stylesheet" href="css/style-btm.css">
+    <title>Home</title>
+</head>
+
+
+<body>
+    <div class="container">
+
+        <header class="header">
+            <div class="logo">
+                <img src="icon/logo.png" alt="logo">
+            </div>
+            <div class="header-bar">
+                <ul>
+                    <li>
+                        <div class="menu-btm">
+                            <div class="menu-btm__burger"></div>
+                        </div>
+                    </li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="#" style="text-decoration:line-through;">Contact</a></li>
+                    <li><a class="selected" href="./index.html">NPC</a></li>
+                    <li><a href="#" style="text-decoration:line-through;">Party</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <nav class="nav">
+            <div class="title">
+                <h1>Denizens of Rûl</h1>
+            </div>
+            <div class="NPC">
+                <ul>
+                    <li><a href="#" style="text-decoration:line-through;">Bestiary</a></li>
+                    <li><a href="./human.html">Humans</a></li>
+                    <li><a href="#" style="text-decoration:line-through;">Other Ancestries</a></li>
+                </ul>
+            </div>
+            <div class="searcher">
+                <label for="name">
+                    Search:
+                    <input type="text" name="busqueda">
+                </label>        
+            </div>
+        </nav>
+
+        <section class="section">
+            <div class="index">
+                <h2>You are Here: NPC</h2>
+            </div>
+            <div class="sub-index" style="display: none;">
+                <ul>
+                    <li><a href="./human_common.html">Common</a></li>
+                    <li><a href="./human_criminal.html">Criminal</a></li>
+                    <li><a href="./human_military.html">Military</a></li>
+                    <li><a href="./human_religious.html">Religious</a></li>
+                    <li><a href="./human_scholar.html">Scholar</a></li>
+                    <li><a href="./human_wilderness.html">Wilderness</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <main class="main">
+            <div class="NPC-card">
+                <div class="stadistics">
+                    <p class="description">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br>
+                    </p>
+                    <div class="name-box">
+                        <h3>name</h3>
+                        <div class="diff">
+                            <h3>diff #</h3>
+                        </div>
+                    </div>
+                    <h4>Size # [frightening/horrifying] descriptor (special)</h4>
+                    <p>
+                        <span>Perception</span> # (+#); special senses <br>
+                        <span>Defense</span> # (armor); <span>Health</span> #; <span>Insanity</span> #; <span>Corruption</span> # <br>
+                        <span>Strength</span> # (+#), <span>Agility</span> # (+#), <span>Intellect</span> # (+#),
+                        <span>Will</span> # (+#) <br>
+                        <span>Speed</span> #; special movement traits <br>
+                        <span>Immune</span> List of things by which the creature is unaffected <br>
+                        <span>Defensive Trait</span> Name and description of how it works. <br>
+                        <span>Vulnerability</span> Description of how it works. <br>
+                        <span>Other Trait or Passive Talent</span> Name and description of how it works. <br>
+                        <ul>
+                            <li>Example1</li>
+                            <li>Example2</li>
+                            <li>Example3</li>
+                        </ul>
+                    </p>
+                    <h5>attack options</h5>
+                    <p>
+                        <span>Attack</span> (melee; [reach +#]) +# [with # boon(s)] (damage [plus attack talent]) <br>
+                        <span>Attack</span> (range) +# [with # boon(s)] (damage [plus attack talent]) <br>
+                        <span>Attack Talent</span> Description of how it works. <br>
+                    </p>
+                    <h5>special attacks</h5>
+                    <p>
+                        <span>Name</span> Description of how it works. <br>
+                    </p>
+                    <h5>special actions</h5>
+                    <p>
+                        <span>Name</span> Description of how it works.
+                    </p>
+                    <h5>
+                        magic
+                    </h5>
+                    <p>
+                        <span>Power</span> # <br>
+                        <span>Tradition</span> <em>name</em> (#), <em>name</em> (#), <em>name</em> (#) <br>
+                    </p>
+                    <h5>end of the round</h5>
+                    <p>
+                        Effect Description of what happens. <br>
+                    </p>
+                </div>
+                <img src="img/Doctor.png" alt="Doctor">
+            </div>
+
+            <div class="NPC-card">
+                <div class="stadistics">
+                    <p><strong>This is the format of the stadistics <br>
+                        card that is intended to mimic =&gt;</strong></p>
+                </div>
+                <img src="img/card.jpg" alt="card">
+            </div>
+
+        </main>
+
+        <footer class="footer">
+            <h6>
+                &#169; Copyright - Rafael Andres Alesso Herrera - Front end
+            </h6>
+            <div class="contact">
+                <a href="#" class="contact-btm">
+                    <span><img src="icon/gmail-icon.png" alt="gmail-icon"></span>Email
+                </a>        
+                <a href="#" class="contact-btm">
+                    <span><img src="icon/github-icon.png" alt="github-icon"></span>Github
+                </a>
+                <a href="#" class="contact-btm">
+                    <span><img src="icon/linkedin-icon.png" alt="linkedin-icon"></span>Linkedin
+                </a>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

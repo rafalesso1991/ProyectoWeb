@@ -1,0 +1,94 @@
+.container .main .NPC-card{
+    display: grid;
+    grid-template-columns: auto auto;
+    max-width: 48%;
+}
+
+    .container .main .NPC-card img{
+        background: #ECD7C6;
+        box-shadow: inset 0px 0px 12px;
+        border-radius: 8px;
+        max-height: 400px;
+    }
+    .container .main .NPC-card .stadistics{
+        background: #DDE2E9;
+        border-radius: 8px;
+        font-size: 11px;
+    }
+    .container .main .NPC-card .stadistics *{
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 0.1em 0.2em;
+    }
+
+        .container .main .NPC-card .stadistics p.description{
+            font-style: italic;
+            padding: 0.5em 0.2em 0.3em 0.2em;
+        }
+        .container .main .NPC-card .stadistics .name-box{
+            background: #000;
+            display: flex;
+            justify-content: space-between;
+            
+        }
+            .container .main .NPC-card .stadistics .name-box h3{
+                background: #000;
+                color: #fff;
+                font-family: 'Athelas';
+                font-size: 1.5em;
+                text-transform: uppercase;
+            }
+        .container .main .NPC-card .stadistics h4{
+            background: #9C0817;
+            color: #fff;
+            font-family: 'Athelas';
+            font-size: 1.2em;
+            font-style: italic;
+            text-indent: 0.2em;
+        }
+        .container .main .NPC-card .stadistics h5{
+            background: #A8A9AD;
+            font-family: 'Athelas';
+            font-size: 1.3em;
+            text-indent: 0.2em;
+            text-transform: uppercase;
+        }
+            .container .main .NPC-card .stadistics p span{
+                font-weight: bold;
+            }
+            .container .main .NPC-card .stadistics p,
+            .container .main .NPC-card .stadistics p ul li{
+                border-radius: 8px;
+                background: #DDE2E9;
+
+            }
+            .container .main .NPC-card .stadistics ul li{
+                margin-left: 2em;
+            }
+
+@media screen and (max-width: 1130px){
+    .container .main .NPC-card{
+        max-width: 600px;
+    }
+    }
+@media screen and (max-width: 620px){
+    .container .main .NPC-card{
+        max-width: 520px;
+    }
+    }
+@media screen and (max-width: 525px){
+    .container .main{
+        align-items: flex-start;
+        flex-wrap: wrap;
+        gap: 8px;
+        padding: 1rem 0;
+    }
+    .container .main .NPC-card .stadistics *{
+        font-size: 0.9em;
+    }
+    .container .main .NPC-card .stadistics h4{
+        font-size: 0.8em;
+    }
+    .container .main .NPC-card img{
+        display: none;
+    }
+}

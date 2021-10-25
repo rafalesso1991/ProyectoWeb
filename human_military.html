@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-card.css">
+    <link rel="stylesheet" href="css/style-btm.css">
+    <title>Human Common</title>
+</head>
+
+
+<body>
+    <div class="container">
+
+        <header class="header">
+            <div class="logo">
+                <img src="icon/logo.png" alt="logo">
+            </div>
+            <div class="header-bar">
+                <ul>
+                    <li>
+                        <div class="menu-btm">
+                            <div class="menu-btm__burger"></div>
+                        </div>
+                    </li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="#" style="text-decoration:line-through;">Contact</a></li>
+                    <li><a class="selected" href="./index.html">NPC</a></li>
+                    <li><a href="#" style="text-decoration:line-through;">Party</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <nav class="nav">
+            <div class="title">
+                <h1>Denizens of Rûl</h1>
+            </div>
+            <div class="NPC">
+                <ul>
+                    <li><a href="#" style="text-decoration:line-through;">Bestiary</a></li>
+                    <li><a class="selected" href="./human.html">Humans</a></li>
+                    <li><a href="#" style="text-decoration:line-through;">Other Ancestries</a></li>
+                </ul>
+            </div>
+            <div class="searcher">
+                <label for="name">
+                    Search:
+                    <input type="text" name="busqueda">
+                </label>        
+            </div>
+        </nav>
+
+        <section class="section">
+            <div class="index">
+                <h2>You are Here: NPCs &gt; Humans &gt; By Profession</h2>
+            </div>
+            <div class="sub-index">
+                <ul>
+                    <li><a href="./human_common.html">Common</a></li>
+                    <li><a href="./human_criminal.html">Criminal</a></li>
+                    <li><a class="selected" href="./human_military.html">Military</a></li>
+                    <li><a href="./human_religious.html">Religious</a></li>
+                    <li><a href="./human_scholar.html">Scholar</a></li>
+                    <li><a href="./human_wilderness.html">Wilderness</a></li>
+                </ul>
+            </div>
+        </section>
+        <main class="main">
+
+            <div class="NPC-card">
+                <div class="stadistics">
+                    <p class="description">
+                        "You may not pass!"
+                    </p>
+                    <div class="name-box">
+                        <h3>guard</h3>
+                        <div class="diff">
+                            <h3>diff 5</h3>
+                        </div>
+                    </div>
+                    <h4>Size 1 human</h4>
+                    <p>
+                        <span>Perception</span> 10 (+0) <br>
+                        <span>Defense</span> 13 (brigadine); <span>Health</span> 17; <span>Insanity</span> 0; <span>Corruption</span> 0 <br>
+                        <span>Strength</span> 12 (+1), <span>Agility</span> 10 (+0), <span>Intellect</span> 10 (+0), <span>Will</span> 11 (+1) <br>
+                        <span>Speed</span> 10; <span>Professions</span> Guard or henchman<br>
+                    </p>
+                    <h5>attack options</h5>
+                    <p>
+                        <span>Glaive</span> (melee, reach +1) +2 with 1 boon (1d6 +2) <br>
+                        <span>Sword</span> (melee) +2 with 1 boon (2d6 +2) <br>
+                    </p>
+                </div>
+                <img src="img/guard2.png" alt="guard">
+            </div>
+
+            <div class="NPC-card">
+                <div class="image">
+                    <img src="img/huntress.png" alt="fighter">
+                </div>
+                <div class="stadistics">
+                    <p class="description">
+                        "Ich fichgt allain"
+                    </p>
+                    <div class="name-box">
+                        <h3>fighter</h3>
+                        <div class="diff">
+                            <h3>diff 25</h3>
+                        </div>
+                    </div>
+                    <h4>Size 1 human barbarian fighter</h4>
+                    <p>
+                        <span>Perception</span> 9 (-1) <br>
+                        <span>Defense</span> 17 (<em>battle sense</em>, hard leather); <span>Health</span> 34; <span>Insanity</span> d3-2; <span>Corruption</span> d3-2 <br>
+                        <span>Strength</span> 11 (+1), <span>Agility</span> 13 (+3), <span>Intellect</span> 9 (-1), <span>Will</span> 12 (+2) <br>
+                        <span>Speed</span> 10; <span>Professions</span> Animal trainer <br>
+                        <span>Fight with Anything</span> When the fighter attacks with a weapon or improvised weapon, it makes the attack roll with 1 boon and if the weapon's damage die is less than 1d6, it treats the damage die as 1d6. <br>
+                        <span>Precise Attack</span>  When the fighter attacks with a swift weapon, it can make the attack roll against the target’s Agility instead of its Defense. <br>
+                    </p>
+                    <h5>attack options</h5>
+                    <p>
+                        <span>Dagger</span> (melee or short range) +3 against Agility (2d6) <br>
+                        <span>Spear</span> (melee or short range) +3 against Agility (1d6 +2) <br>
+                    </p>
+                    <h5>possessions</h5>
+                    <p>
+                        A box of cigarrettes and a tinderbox. <br>
+                    </p>
+                </div>
+            </div>
+
+            <div class="NPC-card">
+                <div class="stadistics">
+                    <p class="description">
+                        "There can be only one"
+                    </p>
+                    <div class="name-box">
+                        <h3>highlander</h3>
+                        <div class="diff">
+                            <h3>diff 25</h3>
+                        </div>
+                    </div>
+                    <h4>Size 1 human warrior highlander</h4>
+                    <p>
+                        <span>Perception</span> 9 (-1) <br>
+                        <span>Defense</span> 12 (hard leather); <span>Health</span> 40; <span>Insanity</span> d3-2; <span>Corruption</span> d3-2 <br>
+                        <span>Strength</span> 14 (+4), <span>Agility</span> 10 (+0), <span>Intellect</span> 9 (-1), <span>Will</span> 12 (+2) <br>
+                        <span>Speed</span> 10; <span>Professions</span> Sherpherd<br>
+                    </p>
+                    <h5>attack options</h5>
+                    <p>
+                        <span>Maul</span> (melee) +4 with 1 boon (4d6 plus <span>Combat Expertise</span>)<br>
+                        <span>Combat Expertise</span> When the highlander uses an action to attack with a weapon, it can choose to deal 1d6 extra damage or make one additional attack against a different target <br>
+                    </p>
+                    <h5>special attacks</h5>
+                    <p>
+                        <span>Highlander Charge</span> The highlander makes all attack rolls and challenge rolls with 1 bane until the end of the round. Then it moves up to its Speed (this movement ignores difficult terrain). At any point during this movement, the highlander makes one attack with a melee weapon or with an attribute to knock down or shove a creature. <br>
+                    </p>
+                </div>
+                <div class="image">
+                    <img src="img/highlander_lady.png" alt="highlander">
+                </div>
+            </div>
+
+            <div class="NPC-card">
+                <div class="stadistics">
+                    <p class="description">
+                        "Who wanna fight?"
+                    </p>
+                    <div class="name-box">
+                        <h3>warrior</h3>
+                        <div class="diff">
+                            <h3>diff 10</h3>
+                        </div>
+                    </div>
+                    <h4>Size 1 human</h4>
+                    <p>
+                        <span>Perception</span> 10 (+0) <br>
+                        <span>Defense</span> 13 (hard leather); <span>Health</span> 22; <span>Insanity</span> d3-2; <span>Corruption</span> d3-2 <br>
+                        <span>Strength</span> 12 (+1), <span>Agility</span> 11 (+1), <span>Intellect</span> 10 (+0), <span>Will</span> 10 (+0) <br>
+                        <span>Speed</span> 10; <span>Professions</span> Mercenary <br>
+                    </p>
+                    <h5>attack options</h5>
+                    <p>
+                        <span>Sword</span> (melee) +2 with 1 boon (2d6 +3) <br>
+                    </p>
+                </div>
+                <div class="image">
+                    <img src="img/conalt.png" alt="warrior">
+                </div>
+            </div>
+
+        </main>
+
+        <footer class="footer">
+            <h6>
+                &#169; Copyright - Rafael Andres Alesso Herrera - Front end
+            </h6>
+            <div class="contact">
+                <a href="#" class="contact-btm">
+                    <span><img src="icon/gmail-icon.png" alt="gmail-icon"></span>Email
+                </a>        
+                <a href="#" class="contact-btm">
+                    <span><img src="icon/github-icon.png" alt="github-icon"></span>Github
+                </a>
+                <a href="#" class="contact-btm">
+                    <span><img src="icon/linkedin-icon.png" alt="linkedin-icon"></span>Linkedin
+                </a>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-card.css">
+    <link rel="stylesheet" href="css/style-btm.css">
+    <title>Home</title>
+</head>
+
+
+<body>
+    <div class="container">
+
+        <header class="header">
+            <div class="logo">
+                <img src="icon/logo.png" alt="logo">
+            </div>
+            <div class="header-bar">
+                <ul>
+                    <li>
+                        <div class="menu-btm">
+                            <div class="menu-btm__burger"></div>
+                        </div>
+                    </li>
+                    <li><a class="selected" href="./about.html">About</a></li>
+                    <li><a href="#contact" style="text-decoration:line-through;">Contact</a></li>
+                    <li><a href="./index.html">NPC</a></li>
+                    <li><a href="#" style="text-decoration:line-through;">Party</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <nav class="nav">
+            <div class="title">
+                <h1>Denizens of Rûl</h1>
+            </div>
+            <div class="NPC" style="display: none;">
+                <ul>
+                    <li><a href="#" style="text-decoration:line-through;">Bestiary</a></li>
+                    <li><a href="./human.html">Humans</a></li>
+                    <li><a href="#" style="text-decoration:line-through;">Other Ancestries</a></li>
+                </ul>
+            </div>
+            <div class="searcher">
+                <label for="name">
+                    Search:
+                    <input type="text" name="busqueda">
+                </label>        
+            </div>
+        </nav>
+
+        <section class="section">
+            <div class="index">
+                <h2>You are Here: About</h2>
+            </div>
+            <div class="sub-index" style="display: none;">
+                <ul>
+                    <li><a href="./human_common.html">Common</a></li>
+                    <li><a href="./human_criminal.html">Criminal</a></li>
+                    <li><a href="./human_military.html">Military</a></li>
+                    <li><a href="./human_religious.html">Religious</a></li>
+                    <li><a href="./human_scholar.html">Scholar</a></li>
+                    <li><a href="./human_wilderness.html">Wilderness</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <main class="main" style="background-image: url(img/cover-about.jpg);">
+            <div class="NPC-card" style="    max-width: 96%;">
+                <img src="img/book.jpg" alt="book">
+                <div class="stadistics" style="width: 100%; opacity:0.8;padding: 1rem;">
+                    <p style="letter-spacing: 2px; text-indent: 1rem;word-spacing: 4px; line-height: 20px;">
+                        Esta página es una guía de ayuda para el juego de rol llamado <span>“Shadow of the Demon Lord”</span>. <br>
+                        Para poder explicar esta página debo primero introducir al concepto de <span>“juego de rol”</span>: Un juego de rol o <span>RPG</span> por sus siglas en inglés (<span>“Role Playing Game”</span>) es un juego de interacción y de interpretación de personajes. Los jugadores interpretarán un personaje en una historia (la temática de la historia es a elección de los jugadores, ya que existen diversos tipos de juegos de rol) y uno de ellos hará el rol de coordinador y narrador de la historia. Este último (conocido como <span>“Game Master”</span> o <span>GM</span>) es quien tomará todas las decisiones que ocurran en la historia a excepción de las de los <span>“Personajes Jugadores”</span> o <span>PC</span> por sus siglas en inglés (<span>“Player Characters”</span>). <br>
+                        Todos los eventos que afecten directamente a los <span>PC</span> se determinan a partir de una tirada de dados. Estas tiradas pueden ser provocadas por cualquier circunstancia, desde determinar si el <span>PC</span> acierta o no un disparo o si otro logra convencer al guardia de seguridad para que los deje pasar al bar. Algunas veces se prefiere omitir la tirada en el caso de que el evento sea alguna situación rutinaria o que no agrega dinamismo a la narrativa. Se supone que la historia que arman juntos los jugadores y el <span>GM</span> debe ser algo emocionante y la responsabilidad de decidir que requiere una tirada y que no recae en el <span>GM</span>. <br>
+                        El punto de jugar rol es pasarla bien en compañía y de poder vivir juntos una historia, aunque sea tan solo en la imaginación. Pero está claro que la mayoría del trabajo está dirigido al <span>GM</span>. <br>
+                        Es por eso que se me ocurrió esta página como ayuda principalmente para los <span>GM</span> de mi juego de rol favorito: <span>“Shadow of the Demon Lord”</span>. Un juego de fantasía medieval oscura que trata sobre la llegada próxima del <span>DL</span> (<span>“Demon Lord”</span>) al mundo de <span>Rûl</span>, lo que traerá el apocalipsis. Los jugadores deberán tratar de detener al DL mientras luchan con sus propios demonios internos y pasados trémulos. <br>
+                        En principio esta página es un compilado de tarjetas de estadísticas de los <span>“Personajes No Jugadores”</span> o <span>NPC</span> por sus siglas en inglés (<span>“Non Player Character”</span>). Estas estadísticas serán importantes a la hacer las tiradas de dados, ya que en los juegos de rol también hay mucha matemática (algunos más que en otros). En este compilado el <span>GM</span> podrá buscar rápida y fácilmente distintos tipos de <span>NPC</span> estereotipados para poder así hacer tiradas de y contra ellos en caso de que los <span>PC</span> decidan interactuar con estos <span>NPC</span>. <br>
+                        Aunque luego (y para añadirle funcionalidad) se me ocurrió la idea agregar una sección para el <span>“Party”</span> (que es así como se le suele llamar al grupo de <span>PC</span>) para poder tener en cuenta aspectos estadísticos que tendrán relevancia durante el juego como ser el registro del dinero que tienen los <span>PC</span> o de las tiradas y los turnos en la <span>“Etapa de Combate”</span> (que es cuando los <span>PC</span> luchan o están en peligro). Además, una sección <span>“Spells”</span> que proveerá un rápido acceso la descripción de los conjuros que existen en el juego. <br>
+                        Debido a que es difícil obtener contenido de rol en español y para homogeneizar la página, la misma (a excepción de esta sección) está escrita completamente en inglés. <br>
+                        <br>
+                        Esta es la página en la cual me inspiré para crear esta: <a href="https://schwalbentertainment.com/">https://schwalbentertainment.com/</a>
+                    </p>
+                </div>
+            </div>
+
+
+        </main>
+
+        <footer class="footer">
+            <h6>
+                &#169; Copyright - Rafael Andres Alesso Herrera - Front end
+            </h6>
+            <div class="contact" id="contact">
+                <a href="#" class="contact-btm">
+                    <span><img src="icon/gmail-icon.png" alt="gmail-icon"></span>Email
+                </a>        
+                <a href="#" class="contact-btm">
+                    <span><img src="icon/github-icon.png" alt="github-icon"></span>Github
+                </a>
+                <a href="#" class="contact-btm">
+                    <span><img src="icon/linkedin-icon.png" alt="linkedin-icon"></span>Linkedin
+                </a>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

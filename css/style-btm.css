@@ -1,0 +1,62 @@
+.menu-btm{
+    background: #272727;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    border: 2px #fff solid;
+    border-radius: 4px;
+}
+.menu-btm__burger{
+    height: 3px;
+    width: 24px;
+    background: #fff;
+    border-radius: 4px;
+    transition: all .5s ease-in-out;
+}
+.menu-btm__burger::before,
+.menu-btm__burger::after{
+    position: absolute;
+    content: '';
+    height: 3px;
+    width: 24px;
+    background: #fff;
+    border-radius: 4px;
+    transition: all .5s ease-in-out;
+}
+.menu-btm__burger::before{
+    transform: translateY(-8px);
+}
+.menu-btm__burger::after{
+    transform: translateY(8px);
+}
+/*ANIMATION*/
+.menu-btm.open .menu-btm__burger {
+    transform: translateX(-50px);
+    background: transparent;
+}
+.menu-btm.open .menu-btm__burger::before {
+    transform: translateX(-50px);
+    background: transparent;
+}
+@media screen and (max-width: 430px){
+
+    .menu-btm{
+        height: 32px;
+        width: 32px;
+        border: 1px #fff solid;
+    }
+    .menu-btm__burger{
+        height: 2px;
+        width: 20px;
+    }
+    .menu-btm__burger::before,
+    .menu-btm__burger::after{
+        height: 2px;
+        width: 20px;
+    }
+}

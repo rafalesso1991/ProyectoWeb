@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-card.css">
+    <link rel="stylesheet" href="css/style-btm.css">
+    <title>Human Common</title>
+</head>
+
+
+<body>
+    <div class="container">
+
+        <header class="header">
+            <div class="logo">
+                <img src="icon/logo.png" alt="logo">
+            </div>
+            <div class="header-bar">
+                <ul>
+                    <li>
+                        <div class="menu-btm">
+                            <div class="menu-btm__burger"></div>
+                        </div>
+                    </li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="#" style="text-decoration:line-through;">Contact</a></li>
+                    <li><a class="selected" href="./index.html">NPC</a></li>
+                    <li><a href="#" style="text-decoration:line-through;">Party</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <nav class="nav">
+            <div class="title">
+                <h1>Denizens of Rûl</h1>
+            </div>
+            <div class="NPC">
+                <ul>
+                    <li><a href="#" style="text-decoration:line-through;">Bestiary</a></li>
+                    <li><a class="selected" href="./human.html">Humans</a></li>
+                    <li><a href="#" style="text-decoration:line-through;">Other Ancestries</a></li>
+                </ul>
+            </div>
+            <div class="searcher">
+                <label for="name">
+                    Search:
+                    <input type="text" name="busqueda">
+                </label>        
+            </div>
+        </nav>
+
+        <section class="section">
+            <div class="index">
+                <h2>You are Here: NPCs &gt; Humans &gt; By Profession</h2>
+            </div>
+            <div class="sub-index">
+                <ul>
+                    <li><a href="./human_common.html">Common</a></li>
+                    <li><a href="./human_criminal.html">Criminal</a></li>
+                    <li><a href="./human_military.html">Military</a></li>
+                    <li><a class="selected" href="./human_religious.html">Religious</a></li>
+                    <li><a href="./human_scholar.html">Scholar</a></li>
+                    <li><a href="./human_wilderness.html">Wilderness</a></li>
+                </ul>
+            </div>
+        </section>
+        <main class="main">
+
+            <div class="NPC-card">
+                <img src="img/Priest.png" alt="initiate">
+                <div class="stadistics">
+                    <p class="description">
+                        "The old ways"
+                    </p>
+                    <div class="name-box">
+                        <h3>initiate of the old faith</h3>
+                        <div class="diff">
+                            <h3>diff 10</h3>
+                        </div>
+                    </div>
+                    <h4>Size 1 human priest</h4>
+                    <p>
+                        <span>Perception</span> 10 (+0); <br>
+                        <span>Defense</span> 12 (soft leather); <span>Health</span> 18; <span>Insanity</span> 0; <span>Corruption</span> 0 <br>
+                        <span>Strength</span> 10 (+0), <span>Agility</span> 11 (+1), <span>Intellect</span> 10 (+0), <span>Will</span> 12 (+2) <br>
+                        <span>Speed</span> 10; <span>Professions</span> Initiate and Scholar (nature and geography) <br>
+                        <strong>Animal Friendship</strong> In social situations, the initiate makes attack rolls to influence animals with boon. <br>
+                        <strong>Armor Abhorrence</strong> The initiate cannot cast Nature spells while wearing heavy armor. <br>
+                    </p>
+                    <h5>attack options</h5>
+                    <p>
+                        <span>Staff</span> (melee) +1 (1d6 +1) <br>
+                    </p>
+                    <h5>special actions</h5>
+                    <p>
+                        <span>Prayer</span> When the initiate or a creature within short range of it makes an attack roll or a challenge roll, the initiate can use a triggered action to grant 1 boon on the triggering roll.
+                    </p>
+                    <h5>
+                        magic
+                    </h5>
+                    <p>
+                        <span>Power</span> 1; <span>Implement</span> Staff <br>
+                        <span>Life</span> <em>minor healing</em> (2), <em>cure</em> (1) <br>
+                        <span>Nature</span> <em>oak hide</em> (2), <em>healing berries</em> (1), <em>shillelagh</em> (1) <br>
+                    </p>
+                    <h5>possessions</h5>
+                    <p>
+                        A handbag with 2d6 cp and a <em>healing potion</em>. <br>
+                    </p>
+                </div>
+            </div>
+
+            <div class="NPC-card">
+                <div class="stadistics">
+                    <p class="description">
+                        "I put a spell on you"
+                    </p>
+                    <div class="name-box">
+                        <h3>witch</h3>
+                        <div class="diff">
+                            <h3>diff 5</h3>
+                        </div>
+                    </div>
+                    <h4>Size 1 human priest</h4>
+                    <p>
+                        <span>Perception</span> 12 (+2); <br>
+                        <span>Defense</span> 12 (soft leather); <span>Health</span> 14; <span>Insanity</span> 2; <span>Corruption</span> 0 <br>
+                        <span>Strength</span> 10 (+0), <span>Agility</span> 11 (+1), <span>Intellect</span> 12 (+2), <span>Will</span> 10 (+0) <br>
+                        <span>Speed</span> 10; <span>Professions</span> Devotee and Scholar (nature and folklore) <br>
+                        <strong>Iron Abhorrence</strong> The apprendice cannot cast Fey spells while it is in contact with iron or an alloy of iron. As well, when the apprendice attack with a Fey spell, it makes the attack roll with 1 bane if the target is wearing iron or an iron alloy, and the target makes any challenge roll to resist the attack with 1 boon. <br>
+                    </p>
+                    <h5>special actions</h5>
+                    <p>
+                        <span>Selfless Recovery</span> The apprendice chooses up to two creatures within short range of it. Each target heals damage equal to its healing rate. Once the apprendice use this talent, the apprendice cannot use it again until it complete a rest. <br>
+                    </p>
+                    <h5>
+                        magic
+                    </h5>
+                    <p>
+                        <span>Power</span> 1; <span>Implement</span> Wand <br>
+                        <span>Fey</span> <em>shrink object</em> (2) <br>
+                        <span>Nature</span> <em>healing poutice</em> (2) <br>
+                        <span>Protection</span> <em>secure site</em> (2) <br>
+                    </p>
+                    <h5>possessions</h5>
+                    <p>
+                        An apotropaic pack (6 uses), a handbag, a healing kit (6 uses). <br>
+                        Each item contained in the pack grants 1 boon on challenge rolls made to resist attacks from spirits, faeries, undead, and spells from the Curse and Forbidden traditions. <br>
+                    </p>
+                </div>
+                <img src="img/witch.png" alt="witch">
+            </div>
+
+
+        </main>
+
+        <footer class="footer">
+            <h6>
+                &#169; Copyright - Rafael Andres Alesso Herrera - Front end
+            </h6>
+            <div class="contact">
+                <a href="#" class="contact-btm">
+                    <span><img src="icon/gmail-icon.png" alt="gmail-icon"></span>Email
+                </a>        
+                <a href="#" class="contact-btm">
+                    <span><img src="icon/github-icon.png" alt="github-icon"></span>Github
+                </a>
+                <a href="#" class="contact-btm">
+                    <span><img src="icon/linkedin-icon.png" alt="linkedin-icon"></span>Linkedin
+                </a>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
