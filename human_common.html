@@ -67,9 +67,11 @@
                 </ul>
             </div>
         </section>
+
         <main class="main">
-            <div class="NPC-card">
-                <img src="img/Apothecary.png" alt="Apothecary">
+
+            <div class="NPC-card" id="apothecary">
+                <img src="img/apothecary.png" alt="apothecary">
                 <div class="stadistics">
                     <p class="description">
                         Each settlement has at least one healer.
@@ -100,7 +102,8 @@
                 </div>
             </div>
 
-            <div class="NPC-card">
+            <div class="NPC-card" id="artisan">
+                <img src="img/female_blacksmith.png" alt="artisan">
                 <div class="stadistics">
                     <p class="description">
                         When you need something done.
@@ -142,44 +145,13 @@
                         A pouch with 1d6 cp and a tool kit. <br>
                     </p>
                 </div>    
-                <img src="img/Artisan.png" alt="Artisan">
             </div>
 
-            <div class="NPC-card">
-                <img src="img/Commoner.png" alt="Commoner">
+            <div class="NPC-card" id="cook">
+                <img src="img/cook.png" alt="cook">
                 <div class="stadistics">
                     <p class="description">
-                        "There is no shame in being ordinary"
-                    </p>    
-                    <div class="name-box">
-                        <h3>commoner</h3>
-                        <div class="diff">
-                            <h3>diff 1</h3>
-                        </div>
-                    </div>
-                    <h4>Size 1 human</h4>
-                    <p>
-                        <span>Perception</span> 10 (+0) <br>
-                        <span>Defense</span> 10; <span>Health</span> 10; <span>Insanity</span> d3-2; <span>Corruption</span> d3-2 <br>
-                        <span>Strength</span> 10 (+0), <span>Agility</span> 10 (+0), <span>Intellect</span> 10 (+0), <span>Will</span> 10 (+0) <br>
-                        <span>Speed</span> 10; <span>Professions</span> Trade such as dyer, tanner, or butcher <br>
-                    </p>
-                    <h5>attack options</h5>
-                    <p>
-                        <span>Dagger</span> (melee or short range) +0 (1d3) <br>
-                    </p>
-                    <h5>possessions</h5>
-                    <p>
-                        A pouch with 1d6 cp. <br>
-                    </p>
-                </div>
-            </div>
-
-            <div class="NPC-card">
-                <img src="img/Cook.png" alt="Cook">
-                <div class="stadistics">
-                    <p class="description">
-                        "Something smells good!"
+                        "Something smells good and it aint me!"
                     </p>    
                     <div class="name-box">
                         <h3>cook</h3>
@@ -206,13 +178,13 @@
                 </div>
             </div>
 
-            <div class="NPC-card">
+            <div class="NPC-card" id="entertainer">
                 <div class="stadistics">
                     <p class="description">
-                        "Dance 'till you're dead!"
+                        "Dance, dance, dance!"
                     </p>    
                     <div class="name-box">
-                        <h3>entretainer</h3>
+                        <h3>entertainer</h3>
                         <div class="diff">
                             <h3>diff 1</h3>
                         </div>
@@ -230,10 +202,40 @@
                         A pouch with 1d6 cp. <br>
                     </p>
                 </div>
-                <img src="img/Entretainer.png" alt="Entretainer">
+                <img src="img/entertainer.png" alt="entertainer">
             </div>
 
-            <div class="NPC-card">
+            <div class="NPC-card" id="innkeeper">
+                <img src="img/commoner_with_crossbow.png" alt="Innkeeper">
+                <div class="stadistics">
+                    <p class="description">
+                        "If you keep causing problems, I'm going to have to ask you to leave!"
+                    </p>
+                    <div class="name-box">
+                        <h3>innkeeper</h3>
+                        <div class="diff">
+                            <h3>diff 1</h3>
+                        </div>
+                    </div>
+                    <h4>Size 1 human</h4>
+                    <p>
+                        <span>Perception</span> 10 (+0) <br>
+                        <span>Defense</span> 10; <span>Health</span> 10; <span>Insanity</span> d3-2; <span>Corruption</span> d3-2 <br>
+                        <span>Strength</span> 10 (+0), <span>Agility</span> 10 (+0), <span>Intellect</span> 10 (+0), <span>Will</span> 10 (+0) <br>
+                        <span>Speed</span> 10; <span>Professions</span> Bartender or shopkeeper <br>
+                    </p>    
+                    <h5>attack options</h5>
+                    <p>
+                        <span>Crossbow</span> (long range, reload) +0 (2d6) <br>
+                    </p>    
+                    <h5>possessions</h5>
+                    <p>
+                        5 bolts and a pouch with 2d6 cp. <br>
+                    </p>
+                </div>
+            </div>
+
+            <div class="NPC-card" id="merchant">
                 <div class="stadistics">
                     <p class="description">
                         "Everything's on sell!"
@@ -247,13 +249,13 @@
                     <h4>Size 1 human</h4>
                     <p>
                         <span>Perception</span> 11 (+1) <br>
-                        <span>Defense</span> 10; <span>Health</span> 10; <span>Insanity</span> d3-2; <span>Corruption</span> d3-2 <br>
+                        <span>Defense</span> 10; <span>Health</span> 9; <span>Insanity</span> d3-2; <span>Corruption</span> d3-2 <br>
                         <span>Strength</span> 9 (-1), <span>Agility</span> 10 (+0), <span>Intellect</span> 11 (+1), <span>Will</span> 10 (+0) <br>
                         <span>Speed</span> 10; <span>Professions</span> Merchant <br>
                     </p>
                     <h5>attack options</h5>
                     <p>
-                        <span>Whip</span> (melee, reach +1) +0 (1d3) <br>
+                        <span>Dagger</span> (melee or short range) +0 (1d3) <br>
                     </p>
                     <h5>special attacks</h5>
                     <p>
@@ -262,13 +264,13 @@
                     <h5>possessions</h5>
                     <p>
                         A <em>healing potion</em>, a pouch with 2d6 ss, a <em>rank 0 incantation</em> and raw goods (such as textiles or grains) worth 1d6 ss. <br>
-                        Plus a personal servant, a guard and three mounts. <br>
+                        Plus a personal <span>servant</span>, a <span>guard</span>, and three <span>mounts</span>. <br>
                     </p>
                 </div>
                 <img src="img/Merchant.png" alt="Merchant">
             </div>
 
-            <div class="NPC-card">
+            <div class="NPC-card" id="peasant">
                 <div class="stadistics">
                     <p class="description">
                         "Yer steppin' on my crops!"
@@ -297,10 +299,10 @@
                         A sack with 2d6 bits, a waterskin, and a loaf of bread. <br>
                     </p>
                 </div>
-                <img src="img/Peasant.png" alt="Peasant">
+                <img src="img/peasant.png" alt="peasant">
             </div>
 
-            <div class="NPC-card" id="Prostitute">
+            <div class="NPC-card" id="prostitute">
                 <div class="stadistics">
                     <p class="description">
                         Claimed by some to be the oldest profession of humanity, prostitutes are men and women willing to offer companionship and carnal pleasures in exchange for coin. These types of businesses are available at any social level, the more expensive, the more interesting talkers and they may know one or two extra professions.
@@ -353,7 +355,7 @@
                 <img src="img/Prostitute.png" alt="Prostitute">
             </div>
 
-            <div class="NPC-card">
+            <div class="NPC-card" id="servant">
                 <div class="stadistics">
                     <p class="description">
                         "How can I serve you, master?"
@@ -377,15 +379,15 @@
                         A pouch with 1d6 cp. <br>
                     </p>
                 </div>
-                <img src="img/Servant.png" alt="Servant">
+                <img src="img/Boris.png" alt="servant">
             </div>
 
-            <div class="NPC-card">
-                <img src="img/Shopkeeper.png" alt="Shopkeeper">
+            <div class="NPC-card" id="shopkeeper">
+                <img src="img/shopkeeper.png" alt="shopkeeper">
                 <div class="stadistics">
                     <p class="description">
-                        "Hey you, get out of my shop!"
-                    </p>
+                        "There is no shame in being ordinary"
+                    </p>    
                     <div class="name-box">
                         <h3>shopkeeper</h3>
                         <div class="diff">
@@ -397,15 +399,15 @@
                         <span>Perception</span> 10 (+0) <br>
                         <span>Defense</span> 10; <span>Health</span> 10; <span>Insanity</span> d3-2; <span>Corruption</span> d3-2 <br>
                         <span>Strength</span> 10 (+0), <span>Agility</span> 10 (+0), <span>Intellect</span> 10 (+0), <span>Will</span> 10 (+0) <br>
-                        <span>Speed</span> 10; <span>Professions</span> Bartender or shopkeeper <br>
-                    </p>    
+                        <span>Speed</span> 10; <span>Professions</span> Trade such as dyer, tanner, or butcher <br>
+                    </p>
                     <h5>attack options</h5>
                     <p>
-                        <span>Crossbow</span> (long range, reload) +0 (2d6) <br>
-                    </p>    
+                        <span>Dagger</span> (melee or short range) +0 (1d3) <br>
+                    </p>
                     <h5>possessions</h5>
                     <p>
-                        5 bolts and a pouch with 2d6 cp. <br>
+                        A pouch with 1d6 cp. <br>
                     </p>
                 </div>
             </div>

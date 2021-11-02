@@ -9,11 +9,13 @@
         box-shadow: inset 0px 0px 12px;
         border-radius: 8px;
         max-height: 400px;
+        max-width: 240px;
     }
     .container .main .NPC-card .stadistics{
         background: #DDE2E9;
         border-radius: 8px;
         font-size: 11px;
+        min-width: 336px;
     }
     .container .main .NPC-card .stadistics *{
         font-family: Arial, Helvetica, sans-serif;

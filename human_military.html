@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style-card.css">
     <link rel="stylesheet" href="css/style-btm.css">
-    <title>Human Common</title>
+    <title>Human Military</title>
 </head>
 
 
@@ -69,10 +69,10 @@
         </section>
         <main class="main">
 
-            <div class="NPC-card">
+            <div class="NPC-card" id="guard">
                 <div class="stadistics">
                     <p class="description">
-                        "You may not pass!"
+                        "Alt! You may not pass!"
                     </p>
                     <div class="name-box">
                         <h3>guard</h3>
@@ -84,25 +84,174 @@
                     <p>
                         <span>Perception</span> 10 (+0) <br>
                         <span>Defense</span> 13 (brigadine); <span>Health</span> 17; <span>Insanity</span> 0; <span>Corruption</span> 0 <br>
-                        <span>Strength</span> 12 (+1), <span>Agility</span> 10 (+0), <span>Intellect</span> 10 (+0), <span>Will</span> 11 (+1) <br>
+                        <span>Strength</span> 12 (+2), <span>Agility</span> 10 (+0), <span>Intellect</span> 10 (+0), <span>Will</span> 11 (+1) <br>
                         <span>Speed</span> 10; <span>Professions</span> Guard or henchman<br>
                     </p>
                     <h5>attack options</h5>
                     <p>
+                        <span>Dagger</span> (melee or short range) +2 with 1 boon (1d3) <br>
                         <span>Glaive</span> (melee, reach +1) +2 with 1 boon (1d6 +2) <br>
+                        <span>Sword</span> (melee) +2 with 1 boon (1d6 +2) <br>
+                    </p>
+                </div>
+                <img src="img/guard.png" alt="guard">
+            </div>
+
+            <div class="NPC-card" id="watchdog">
+                <div class="stadistics">
+                    <p class="description">
+                        "Woof!"
+                    </p>
+                    <div class="name-box">
+                        <h3>watchdog</h3>
+                        <div class="diff">
+                            <h3>diff 5</h3>
+                        </div>
+                    </div>
+                    <h4>Size 1 animal</h4>
+                    <p>
+                        <span>Perception</span> 15 (+5) <br>
+                        <span>Defense</span> 13; <span>Health</span> 17; <span>Insanity</span> 0; <span>Corruption</span> 0 <br>
+                        <span>Strength</span> 13 (+3), <span>Agility</span> 13 (+3), <span>Intellect</span> 7 (-3), <span>Will</span> 10 (+0) <br>
+                        <span>Speed</span> 12;<br>
+                    </p>
+                    <h5>attack options</h5>
+                    <p>
+                        <span>Bite</span> (melee) +3 with 1 boon (1d6 +1) <br>
+                    </p>
+                </div>
+                <img src="img/dog.png" alt="watchdog">
+            </div>
+
+            <div class="NPC-card" id="city_guard">
+                <div class="stadistics">
+                    <p class="description">
+                        "You are under arrest"
+                    </p>
+                    <div class="name-box">
+                        <h3>city guard</h3>
+                        <div class="diff">
+                            <h3>diff 10</h3>
+                        </div>
+                    </div>
+                    <h4>Size 1 human</h4>
+                    <p>
+                        <span>Perception</span> 10 (+0) <br>
+                        <span>Defense</span> 16 (scale); <span>Health</span> 23; <span>Insanity</span> 0; <span>Corruption</span> 0 <br>
+                        <span>Strength</span> 13 (+3), <span>Agility</span> 10 (+0), <span>Intellect</span> 10 (+0), <span>Will</span> 10 (+0) <br>
+                        <span>Speed</span> 10; <span>Professions</span> Guard <br>
+                    </p>
+                    <h5>attack options</h5>
+                    <p>
+                        <span>Halberd</span> (melee, reach +1) +2 with 1 boon (2d6 +2) <br>
                         <span>Sword</span> (melee) +2 with 1 boon (2d6 +2) <br>
                     </p>
                 </div>
-                <img src="img/guard2.png" alt="guard">
+                <img src="img/city_guard_captain.png" alt="city_guard">
             </div>
 
-            <div class="NPC-card">
+            <div class="NPC-card" id="jailer">
                 <div class="image">
-                    <img src="img/huntress.png" alt="fighter">
+                    <img src="img/prision_guard.png" alt="jailer">
                 </div>
                 <div class="stadistics">
                     <p class="description">
-                        "Ich fichgt allain"
+                        "You wont't escape"
+                    </p>
+                    <div class="name-box">
+                        <h3>prision guard</h3>
+                        <div class="diff">
+                            <h3>diff 1</h3>
+                        </div>
+                    </div>
+                    <h4>Size 1 human</h4>
+                    <p>
+                        <span>Perception</span> 10 (+0) <br>
+                        <span>Defense</span> 13 (brigandine); <span>Health</span> 11; <span>Insanity</span> 0; <span>Corruption</span> 0 <br>
+                        <span>Strength</span> 11 (+1), <span>Agility</span> 10 (+0), <span>Intellect</span> 10 (+0), <span>Will</span> 10 (+0) <br>
+                        <span>Speed</span> 10; <span>Professions</span> Jailer or torturer <br>
+                        <br>
+                    </p>
+                    <h5>attack options</h5>
+                    <p>
+                        <span>CLub</span> (melee) +1 (1d6) <br>
+                    </p>
+                    <h5>possessions</h5>
+                    <p>
+                        A bunch of keys, a horn, a lantern, a flask of oil, a tinderbox and torturer’s tools. <br>
+                    </p>
+                </div>
+            </div>
+
+            <div class="NPC-card" id="patroller">
+                <div class="image">
+                    <img src="img/patroller.png" alt="patroller">
+                </div>
+                <div class="stadistics">
+                    <p class="description">
+                        "Who's there?"
+                    </p>
+                    <div class="name-box">
+                        <h3>patroller</h3>
+                        <div class="diff">
+                            <h3>diff 1</h3>
+                        </div>
+                    </div>
+                    <h4>Size 1 human</h4>
+                    <p>
+                        <span>Perception</span> 10 (+0) <br>
+                        <span>Defense</span> 11 (soft leather); <span>Health</span> 11; <span>Insanity</span> 0; <span>Corruption</span> 0 <br>
+                        <span>Strength</span> 11 (+1), <span>Agility</span> 10 (+0), <span>Intellect</span> 10 (+0), <span>Will</span> 10 (+0) <br>
+                        <span>Speed</span> 10; <span>Professions</span> Patroller <br>
+                    </p>
+                    <h5>attack options</h5>
+                    <p>
+                        <span>Spear</span> (melee or short range) +1 (1d6) <br>
+                    </p>
+                    <h5>possessions</h5>
+                    <p>
+                        A horn, a lantern, a flask of oil. <br>
+                    </p>
+                </div>
+            </div>
+
+            <div class="NPC-card" id="militiaman">
+                <div class="image">
+                    <img src="img/militiaman.png" alt="militiaman">
+                </div>
+                <div class="stadistics">
+                    <p class="description">
+                        "Form up!"
+                    </p>
+                    <div class="name-box">
+                        <h3>militiaman</h3>
+                        <div class="diff">
+                            <h3>diff 1</h3>
+                        </div>
+                    </div>
+                    <h4>Size 1 human</h4>
+                    <p>
+                        <span>Perception</span> 10 (+0) <br>
+                        <span>Defense</span> 10; <span>Health</span> 10; <span>Insanity</span> 0; <span>Corruption</span> 0 <br>
+                        <span>Strength</span> 11 (+1), <span>Agility</span> 10 (+0), <span>Intellect</span> 10 (+0), <span>Will</span> 10 (+0) <br>
+                        <span>Speed</span> 10; <span>Professions</span> Soldier <br>
+                        <br>
+                    </p>
+                    <h5>attack options</h5>
+                    <p>
+                        <span>Dagger</span> (melee or short range) +1 (1d3) <br>
+                        <span>Spear</span> (melee or short range) +1 (1d6) <br>
+                    </p>
+                </div>
+            </div>
+
+            <div class="NPC-card" id="duelist">
+                <div class="image">
+                    <img src="img/gallant_woman.png" alt="duelist">
+                </div>
+                <div class="stadistics">
+                    <p class="description">
+                        "En garde!"
                     </p>
                     <div class="name-box">
                         <h3>fighter</h3>
@@ -110,28 +259,23 @@
                             <h3>diff 25</h3>
                         </div>
                     </div>
-                    <h4>Size 1 human barbarian fighter</h4>
+                    <h4>Size 1 human gallant fighter</h4>
                     <p>
-                        <span>Perception</span> 9 (-1) <br>
-                        <span>Defense</span> 17 (<em>battle sense</em>, hard leather); <span>Health</span> 34; <span>Insanity</span> d3-2; <span>Corruption</span> d3-2 <br>
-                        <span>Strength</span> 11 (+1), <span>Agility</span> 13 (+3), <span>Intellect</span> 9 (-1), <span>Will</span> 12 (+2) <br>
+                        <span>Perception</span> 12 (+2) <br>
+                        <span>Defense</span> 10; <span>Health</span> 28; <span>Insanity</span> 0; <span>Corruption</span> 0 <br>
+                        <span>Strength</span> 10 (+0), <span>Agility</span> 13 (+3), <span>Intellect</span> 12 (+2), <span>Will</span> 10 (+0) <br>
                         <span>Speed</span> 10; <span>Professions</span> Animal trainer <br>
-                        <span>Fight with Anything</span> When the fighter attacks with a weapon or improvised weapon, it makes the attack roll with 1 boon and if the weapon's damage die is less than 1d6, it treats the damage die as 1d6. <br>
-                        <span>Precise Attack</span>  When the fighter attacks with a swift weapon, it can make the attack roll against the target’s Agility instead of its Defense. <br>
+                        <span>Fight with Anything</span> When the duelist attacks with a weapon or improvised weapon, it makes the attack roll with 1 boon and if the weapon's damage die is less than 1d6, it treats the damage die as 1d6. <br>
+                        <span>Precise Attack</span>  When the duelist attacks with a swift weapon, it can make the attack roll against the target’s Agility instead of its Defense. <br>
                     </p>
                     <h5>attack options</h5>
                     <p>
-                        <span>Dagger</span> (melee or short range) +3 against Agility (2d6) <br>
-                        <span>Spear</span> (melee or short range) +3 against Agility (1d6 +2) <br>
-                    </p>
-                    <h5>possessions</h5>
-                    <p>
-                        A box of cigarrettes and a tinderbox. <br>
+                        <span>Rapier</span> (melee) +3 with 1 boon against Agility (2d6 +1) <br>
                     </p>
                 </div>
             </div>
 
-            <div class="NPC-card">
+            <div class="NPC-card" id="highlander">
                 <div class="stadistics">
                     <p class="description">
                         "There can be only one"
@@ -145,7 +289,7 @@
                     <h4>Size 1 human warrior highlander</h4>
                     <p>
                         <span>Perception</span> 9 (-1) <br>
-                        <span>Defense</span> 12 (hard leather); <span>Health</span> 40; <span>Insanity</span> d3-2; <span>Corruption</span> d3-2 <br>
+                        <span>Defense</span> 12 (hard leather); <span>Health</span> 40; <span>Insanity</span> 0; <span>Corruption</span> 0 <br>
                         <span>Strength</span> 14 (+4), <span>Agility</span> 10 (+0), <span>Intellect</span> 9 (-1), <span>Will</span> 12 (+2) <br>
                         <span>Speed</span> 10; <span>Professions</span> Sherpherd<br>
                     </p>
@@ -156,42 +300,111 @@
                     </p>
                     <h5>special attacks</h5>
                     <p>
-                        <span>Highlander Charge</span> The highlander makes all attack rolls and challenge rolls with 1 bane until the end of the round. Then it moves up to its Speed (this movement ignores difficult terrain). At any point during this movement, the highlander makes one attack with a melee weapon or with an attribute to knock down or shove a creature. <br>
+                        <span>Highlander Charge</span> The highlander makes all attack rolls and challenge rolls with 1 bane until the end of the round. Then the highlander moves up to its Speed (this movement ignores difficult terrain). At any point during this movement, the highlander makes one attack with a melee weapon or with an attribute to knock down or shove a creature. <br>
                     </p>
                 </div>
                 <div class="image">
-                    <img src="img/highlander_lady.png" alt="highlander">
+                    <img src="img/highlander.png" alt="highlander">
                 </div>
             </div>
 
-            <div class="NPC-card">
+            <div class="NPC-card" id="knight">
                 <div class="stadistics">
                     <p class="description">
-                        "Who wanna fight?"
+                        "For honor"
                     </p>
                     <div class="name-box">
-                        <h3>warrior</h3>
+                        <h3>knight</h3>
+                        <div class="diff">
+                            <h3>diff 25</h3>
+                        </div>
+                    </div>
+                    <h4>Size 1 human arminger, knight</h4>
+                    <p>
+                        <span>Perception</span> 10 (+0) <br>
+                        <span>Defense</span> 18 (mail, large shield); <span>Health</span> 32; <span>Insanity</span> 0; <span>Corruption</span> 0 <br>
+                        <span>Strength</span> 14 (+4), <span>Agility</span> 9 (-1), <span>Intellect</span> 10 (+0), <span>Will</span> 12 (+2) <br>
+                        <span>Speed</span> 10; <span>Professions</span> Academic (Etiquette, heraldry, law, and politics) <br>
+                        <span>Armor Specialization</span> While wearing medium or heavy armor, the knight gains a +1 bonus to Defense <br>
+                        <span>Courtesy</span> The knight makes attack rolls in social situations with 1 boon. <br>
+                    </p>
+                    <h5>attack options</h5>
+                    <p>
+                        <span>Lance</span> (melee, reach +2) +4 with 1 boon (2d6 +2) <br>
+                        <span>Shield</span> (melee) +4 with 1 boon (1d3 plus 1d6) <br>
+                        <span>Sword</span> (melee) +4 with 1 boon (2d6 +2) <br>
+                    </p>
+                    <h5>special attacks</h5>
+                    <p>
+                        <span>Devastating Charge</span> The knight makes all attack rolls and challenge rolls with 1 bane until the end of the round. Then the knight (or its mount) moves up to its Speed. At any point during this movement, the knihgt makes one attack with a melee weapon or with an attribute to knock down or shove a creature. The attack deals 1d6 extra damage or 2d6 extra damage if the knight is riding.<br>
+                    </p>
+                    <h5>special actions</h5>
+                    <p>
+                        <span>Warding Shield</span> If the knight is wielding a shield when a creature attacks another creature within its reach, the knight can use a triggered action to impose 1 bane on the triggering creature’s attack roll. <br>
+                    </p>
+                    <h5>possessions</h5>
+                    <p>
+                        A pouch with 1d6 gp plus a <span>squire</span> and a <span>warhorse</span> <br>
+                    </p>
+                </div>
+                <div class="image">
+                    <img src="img/Knight.png" alt="Knight">
+                </div>
+            </div>
+
+            <div class="NPC-card" id="squire">
+                <div class="stadistics">
+                    <p class="description">
+                        "I'll do my best"
+                    </p>
+                    <div class="name-box">
+                        <h3>squire</h3>
                         <div class="diff">
                             <h3>diff 10</h3>
                         </div>
                     </div>
-                    <h4>Size 1 human</h4>
+                    <h4>Size 1 human arminger</h4>
                     <p>
                         <span>Perception</span> 10 (+0) <br>
-                        <span>Defense</span> 13 (hard leather); <span>Health</span> 22; <span>Insanity</span> d3-2; <span>Corruption</span> d3-2 <br>
-                        <span>Strength</span> 12 (+1), <span>Agility</span> 11 (+1), <span>Intellect</span> 10 (+0), <span>Will</span> 10 (+0) <br>
-                        <span>Speed</span> 10; <span>Professions</span> Mercenary <br>
+                        <span>Defense</span> 14 (brigandine, small shield); <span>Health</span> 20; <span>Insanity</span> 0; <span>Corruption</span> 0 <br>
+                        <span>Strength</span> 12 (+2), <span>Agility</span> 10 (+0), <span>Intellect</span> 10 (+0), <span>Will</span> 11 (+1) <br>
+                        <span>Speed</span> 10; <span>Professions</span> Squire <br>
+                        <span>Courtesy</span> The squire makes attack rolls in social situations with 1 boon. <br>
                     </p>
                     <h5>attack options</h5>
                     <p>
-                        <span>Sword</span> (melee) +2 with 1 boon (2d6 +3) <br>
+                        <span>Small Shield</span> (melee) +2 with 1 boon (1d3 plus 1d6) <br>
+                        <span>Sword</span> (melee) +2 with 1 boon (2d6 +2) <br>
+                    </p>
+                    <br>
+                    <div class="name-box">
+                        <h3>warhorse</h3>
+                        <div class="diff">
+                            <h3>diff 10</h3>
+                        </div>
+                    </div>
+                    <h4>Size 2 animal</h4>
+                    <p>
+                        <span>Perception</span> 12 (+2) <br>
+                        <span>Defense</span> 15 (mail); <span>Health</span> 20; <span>Insanity</span> 0; <span>Corruption</span> 0 <br>
+                        <span>Strength</span> 15 (+5), <span>Agility</span> 10 (+0), <span>Intellect</span> 7 (-3), <span>Will</span> 12 (+2) <br>
+                        <span>Speed</span> 14; gallop <br>
+                        <span>Immune</span> frightened <br>
+                    </p>
+                    <h5>attack options</h5>
+                    <p>
+                        <span>Hooves and Teeth</span> (melee) +5 (1d6 +1) <br>
+                    </p>
+                    <h5>special actions</h5>
+                    <p>
+                        <span>Gallop</span> The warhorse moves up to three times its Speed. <br>
                     </p>
                 </div>
                 <div class="image">
-                    <img src="img/conalt.png" alt="warrior">
+                    <img src="img/generi_knight.png" alt="arminger">
                 </div>
             </div>
-
+    
         </main>
 
         <footer class="footer">
